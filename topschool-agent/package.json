@@ -1,0 +1,29 @@
+{
+  "name": "topschool-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "升學教育 Agent — 香港學校升學數據庫",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "db:generate": "npm run generate --workspace=packages/db",
+    "db:migrate": "npm run migrate --workspace=packages/db",
+    "db:studio": "npm run studio --workspace=packages/db",
+    "discover": "npm run discover --workspace=apps/scraper",
+    "scrape": "npm run scrape --workspace=apps/scraper",
+    "import": "npm run import --workspace=apps/scraper"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
