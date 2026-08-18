@@ -1,7 +1,0 @@
-{
-  "name": "commerce",
-  "version": "0.1.0",
-  "description": "Commerce domain — product listings, pricing, marketplace analysis",
-  "domains": ["commerce"],
-  "intents": ["commerce", "product", "pricing", "marketplace"]
-}

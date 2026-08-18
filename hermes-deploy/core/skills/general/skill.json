@@ -1,7 +1,0 @@
-{
-  "name": "general",
-  "version": "0.1.0",
-  "description": "Default fallback skill for unmatched intents",
-  "domains": ["general"],
-  "intents": ["general"]
-}
